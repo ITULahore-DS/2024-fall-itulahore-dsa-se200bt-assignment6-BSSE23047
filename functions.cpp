@@ -127,3 +127,11 @@ void Queue::printQueue(){ // print queue
         temp = temp->getNext();
     }
 }
+
+int Queue::peek(){ // returns data from top
+    if (isEmpty())
+    {
+        return -1;
+    }
+    return top->getData();
+}

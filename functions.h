@@ -60,6 +60,7 @@ class Queue{
     void enqueue(int data); //inserting in queue
     void dequeue(); //dequeuing 
     int size(); //size getter
+    int peek(); 
     void printQueue(); //printing queue
 
     ~Queue(){
